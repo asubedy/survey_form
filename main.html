@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Survey</title>
 </head>
 <body>
     <header>
         <h1 id="title">Survey Form</h1>
         <p id= "description">Something about the form</p>
+        <link rel="stylesheet" href="style.css">
     </header>
     <section>
         <form id= "survey-form">
-            <label for="name" id="name-label" >
-                Name   <input type="text" id ="name" placeholder="Enter Name"><br><br>
-            </label>
-            <label for="email" id="email-label">
-                E-mail <input type="text" id = "email" placeholder="Enter E-mail"><br><br>
-            </label>
-            <label for="age" id="number-label">
-                Age    <input type="number" id = "number" min="16" max="70" placeholder="Enter Age" ><br><br>
-            </label>
+            <div class= "name">
+            <label for="name" id="name-label" > Name: </label><br>
+                <input type="text" id ="name" placeholder="Enter Name">
+            </div>
+            <div class="email"><br>
+            <label for="email" id="email-label"> E-mail: </label><br>
+              <input type="email" id = "email" placeholder="Enter E-mail">
+            </div>
+            <div class = "age"><br>
+            <label for="age" id="number-label">Age: </label>
+                <input type="number" id = "number" min="16" max="70" placeholder="Enter Age" >
+            </div>
+            <div class = "dropdown1">
+                <label for = "working-field" >Which field do you work on?</label>
+                <select name = "working-field" id = "dropdown" >
+                    <option value = "Student">Student</option>
+                    <option value = "Junior-Dev">Junior Developer</option>
+                    <option value = "Senior-Dev">Senior Developer</option>
+                </select>
+            </div>
+            <div class = radio><br>
+                <label for="suitable-for-radio" >Chose something from these</label><br>
+                    <input type="radio" name="suitable-for-radio" value = "value1" > Value1 <br>
+                    <input type="radio" name="suitable-for-radio" value = "value2" > Value2 <br>
+                    <input type="radio" name="suitable-for-radio" value = "value3" > Value3 <br>
+                    <input type="radio" name="suitable-for-radio" value = "value4" > Value4 <br>
+                    <input type="radio" name="suitable-for-radio" value = "value5" > Value5 <br>
+            </div>
+            <div>
+                <p>Chose Several from these</p>
+                <label>
+                    <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec1">valuec1
+                </label>
+                <label>
+                    <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec2">valuec2
+                </label>
+                <label>
+                    <input type="checkbox" name="checkboxs" value="valuec3">valuec3 
+                </label>
+                <label>
+                    <input type="checkbox" name="checkboxs" value="valuec4">valuec4 
+                </label>
+                <label >
+                    <input type="checkbox" name="checkboxs" value="valuec5">valuec5 
+                </label>
+                <label>
+                    <input type="checkbox" name="checkboxs" value="valuec6">valuec6 
+                </label>
+            </div>
+            <div class = "coommments"><br>
+                <label for="comment">Please leav any other information here</label><br>
+                <textarea name="comment" id="comment"  placeholder="Enter any comment heres"></textarea>
+            </div>
+            <div class = submit-button>
+            <button type="submit" id = "submit">Submit</button>
+            </div>
         </form>
     </section>
     

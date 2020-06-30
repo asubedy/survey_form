@@ -1,0 +1,73 @@
+section{
+
+    display: block;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+label{
+    display: flex;
+}
+#survey-form{
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: tomato;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#name,#email{
+    padding-right : 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    border-radius:5px ;
+    width: 100%;
+}
+.age,.dropdown1{
+    padding-top: 10px;
+    display: inline-block;
+}
+.dropdown1{
+    padding-left: 170px;
+}
+.input-checkbox{
+    display: inline-block;
+    margin-right: 0.625rem;;
+
+}
+#dropdown{
+    padding: 7px 7px 7px 0px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+#number{
+    padding: 5px 5px 5px 0px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+#comment{
+    /*padding:0px 10px 10px 0px;*/
+    border-radius: 5px;
+    font-size: 13px;
+    width: 100%;
+    height: 100px                                    ;
+}
+.submit-button{
+    width: 100%;
+    text-align: center;
+   
+}
+#submit{
+    width: 100%;
+    background-color: #37af65;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
