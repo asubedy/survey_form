@@ -12,11 +12,11 @@
     <section>
         <form id= "survey-form">
             <div class= "name">
-            <label for="name" id="name-label" > Name: </label><br>
+            <label for="name" id="name-label" > Name: </label>
                 <input type="text" id ="name" placeholder="Enter Name">
             </div>
             <div class="email"><br>
-            <label for="email" id="email-label"> E-mail: </label><br>
+            <label for="email" id="email-label"> E-mail: </label>
               <input type="email" id = "email" placeholder="Enter E-mail">
             </div>
             <div class = "age"><br>
@@ -31,37 +31,52 @@
                     <option value = "Senior-Dev">Senior Developer</option>
                 </select>
             </div>
-            <div class = radio><br>
-                <label for="suitable-for-radio" >Chose something from these</label><br>
-                    <input type="radio" name="suitable-for-radio" value = "value1" > Value1 <br>
-                    <input type="radio" name="suitable-for-radio" value = "value2" > Value2 <br>
-                    <input type="radio" name="suitable-for-radio" value = "value3" > Value3 <br>
-                    <input type="radio" name="suitable-for-radio" value = "value4" > Value4 <br>
-                    <input type="radio" name="suitable-for-radio" value = "value5" > Value5 <br>
+            <div class = radio>
+                <p>Chose something from these</p>
+                <div class="contents-move-up">
+                    <label>
+                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value1" > Value1 <br>
+                    </label>
+                    <label>
+                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value2" > Value2 <br>
+                    </label>
+                    <label>
+                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value3" > Value3 <br>
+                    </label>
+                    <label >
+                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value4" > Value4 <br>
+                    </label>
+                    <label>
+                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value5" > Value5 <br>
+                    </label>
+                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value1" > Value1 <br>
+                </div>
             </div>
-            <div>
+            <div class="checkbox">
                 <p>Chose Several from these</p>
-                <label>
-                    <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec1">valuec1
-                </label>
-                <label>
-                    <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec2">valuec2
-                </label>
-                <label>
-                    <input type="checkbox" name="checkboxs" value="valuec3">valuec3 
-                </label>
-                <label>
-                    <input type="checkbox" name="checkboxs" value="valuec4">valuec4 
-                </label>
-                <label >
-                    <input type="checkbox" name="checkboxs" value="valuec5">valuec5 
-                </label>
-                <label>
-                    <input type="checkbox" name="checkboxs" value="valuec6">valuec6 
-                </label>
+                <div class="contents-move-up">
+                    <label>
+                        <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec1"> valuec1
+                    </label>
+                    <label>
+                        <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec2"> valuec2
+                    </label>
+                    <label>
+                        <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec3"> valuec3 
+                    </label>
+                    <label>
+                        <input  class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec4"> valuec4 
+                    </label>
+                    <label >
+                        <input class = "input-checkbox" type="checkbox" name="checkboxs" value="valuec5"> valuec5 
+                    </label>
+                    <label>
+                        <input class = "input-checkbox"type="checkbox" name="checkboxs" value="valuec6">valuec6 
+                    </label>
+                </div>
             </div>
             <div class = "coommments"><br>
-                <label for="comment">Please leav any other information here</label><br>
+                <label for="comment">Please leave any other information here</label><br>
                 <textarea name="comment" id="comment"  placeholder="Enter any comment heres"></textarea>
             </div>
             <div class = submit-button>
