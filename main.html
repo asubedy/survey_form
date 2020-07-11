@@ -15,19 +15,19 @@
         <form id= "survey-form">
             <div class= "name">
             <label for="name" id="name-label" > Name: </label>
-                <input type="text" id ="name" placeholder="Enter Name">
+                <input type="text" id ="name" placeholder="Enter Name" required>
             </div>
             <div class="email"><br>
             <label for="email" id="email-label"> E-mail: </label>
-              <input type="email" id = "email" placeholder="Enter E-mail">
+              <input type="email" id = "email" placeholder="Enter E-mail" required>
             </div>
             <div class = "age"><br>
             <label for="age" id="number-label">Age: </label>
-                <input type="number" id = "number" min="16" max="70" placeholder="Enter Age" >
+                <input type="number" id = "number" min="16" max="70" placeholder="Enter Age" required>
             </div>
             <div class = "dropdown1">
                 <label for = "working-field" >Which field do you work on?</label>
-                <select name = "working-field" id = "dropdown" >
+                <select name = "working-field" id = "dropdown" required>
                     <option value = "Student">Student</option>
                     <option value = "Junior-Dev">Junior Developer</option>
                     <option value = "Senior-Dev">Senior Developer</option>
@@ -35,7 +35,7 @@
             </div>
             <div class = radio>
                 <p>Chose something from these</p>
-                <div class="contents-move-up">
+                <div class="contents-move-up" >
                     <label>
                         <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value1" > Value1 <br>
                     </label>
@@ -51,7 +51,6 @@
                     <label>
                         <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value5" > Value5 <br>
                     </label>
-                        <input class =" input-radio" type="radio" name="suitable-for-radio" value = "value1" > Value1 <br>
                 </div>
             </div>
             <div class="checkbox">
