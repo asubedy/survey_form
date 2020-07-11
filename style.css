@@ -1,3 +1,25 @@
+body{
+    background-image: url(https://www.wallpaperbetter.com/wallpaper/574/905/94/abstract-form-1080P-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(247, 241, 238);
+    font-family: 'Fredoka One', cursive;;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+#description span{
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
+    background-color: rgba(49, 73, 77, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
 section{
 
     display: block;
@@ -14,7 +36,7 @@ label{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    background-color: tomato;
+    background-color: rgba(44, 128, 131, 0.5);
     font-size: 20px;
     padding: 30px;
     border-radius: 10px;
